@@ -38,7 +38,7 @@ return [
     'facebook' => [
     'client_id' => '513304035680216',
     'client_secret' => '68c0fe47e00336c74ff62031fd5ca2b2',
-    'redirect' => 'https://secret-stream-45223.herokuapp.com/facebook/callback',
+    'redirect' => 'https://secret-stream-45223.herokuapp.com/login/facebook/callback',
 ],
 
 ];
