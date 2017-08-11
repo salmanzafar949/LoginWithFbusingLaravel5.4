@@ -59,6 +59,7 @@ class LoginController extends Controller
 
         // $user->token;
         return $user_social -> name;
+        return $user_social -> avatar;
         $findsuser = User::where('email', $user_social->name);
         if($findsuser)
         {
